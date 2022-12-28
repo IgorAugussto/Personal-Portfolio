@@ -2,6 +2,8 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import projImg1 from '../assets/img/project-img1.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
+import flatLogo from '../assets/img/flat-logo.png';
+import financeLogo from '../assets/img/finance-logo.png';
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -11,34 +13,14 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Coming Soon...",
+            description: "",
+            imgUrl: flatLogo,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "Coming Soon...",
+            description: "",
+            imgUrl: financeLogo,
         },
     ]
 
@@ -56,9 +38,6 @@ export const Projects = () => {
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
                                                 <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
                                                 <Nav.Link eventKey="third">Tab 3</Nav.Link>

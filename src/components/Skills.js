@@ -1,8 +1,5 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -43,20 +40,19 @@ export const Skills = () => {
                                         <Carousel responsive={responsive} infinite={true}
                                             className="owl-carousel owl-theme skill-slider">
                                             <div className="item">
-                                                <img src={meter1} alt="Image" />
-                                                <h5>Java</h5>
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
                                             </div>
                                             <div className="item">
-                                                <img src={meter2} alt="Image" />
-                                                <h5>Brand Identity</h5>
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
                                             </div>
                                             <div className="item">
-                                                <img src={meter3} alt="Image" />
-                                                <h5>Logo Design</h5>
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
                                             </div>
                                             <div className="item">
-                                                <img src={meter1} alt="Image" />
-                                                <h5>Web Development</h5>
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                            </div>
+                                            <div className="item">
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                                             </div>
                                         </Carousel>
                                     </div>
