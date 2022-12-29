@@ -1,7 +1,4 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import projImg1 from '../assets/img/project-img1.png';
-import projImg2 from '../assets/img/project-img2.png';
-import projImg3 from '../assets/img/project-img3.png';
 import flatLogo from '../assets/img/flat-logo.png';
 import financeLogo from '../assets/img/finance-logo.png';
 import ProjectCard from "./ProjectCard";
@@ -33,14 +30,20 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>These are my projects, the first one is a personal project about
+                                        a flat on the beach that my family has, so I decided to make
+                                        a landing page to increase the publicity. The second one is
+                                        a study project to practice full stack with cloud integration
+                                        that I’m learning with Dougllas Sousa (Udemy) and it is
+                                        about financial care.</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                                        <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                                        <Nav variant="pills" className="nav-pills mb-5 
+                                        justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
                                                 <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content >
@@ -58,11 +61,8 @@ export const Projects = () => {
                                                     }
                                                 </Row>
                                             </Tab.Pane>
-                                            <Tab.Pane eventKey="section">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="third">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                            <Tab.Pane eventKey="second">
+                                                <p>This is a space for future projects.</p>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>
