@@ -42,26 +42,26 @@ export const Skills = () => {
                                         <Carousel responsive={responsive} infinite={true}
                                             className="owl-carousel owl-theme skill-slider">
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Java" />
                                             </div>
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" alt="Spring" />
                                             </div>
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" />
                                             </div>
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Html" />
                                             </div>
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Css" />
                                             </div>
                                         </Carousel>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <img className="background-image-left" src={colorSharp} alt="Image" />
+                        <img className="background-image-left" src={colorSharp} alt="Color-bg" />
                     </Col>
                 </Row>
             </Container>
