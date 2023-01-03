@@ -25,7 +25,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://https://personal-portfolio-igor.vercel.app/#connect", {
+    let response = await fetch("http://localhost:3000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
