@@ -51,12 +51,11 @@ export const NavBar = () => {
                         <div className='social-icon'>
                             <a href="http://www.linkedin.com/in/igor-augusto-5353a8191" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Linkedin" /></a>
                         </div>
-                        <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active-navbar-link'
-                            : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>
+                        <a href="http://mailto:igor-augustofc@hotmail.com" target="_blank" rel="noreferrer">
                             <button className="vvd" onClick={() => console.log()}>
                                 <span>Let's Connect</span>
                             </button>
-                        </Nav.Link>
+                        </a>
                     </span>
                 </Navbar.Collapse>
             </Container>
