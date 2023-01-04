@@ -1,3 +1,7 @@
+/*
+
+*********** FUNCIONALIDADE AINDA EM CONSTRUÇÃO ***********
+
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from '../assets/img/contact-img.svg';
@@ -87,4 +91,4 @@ export const Contact = () => {
   )
 }
 
-export default Contact;
+export default Contact;*/
