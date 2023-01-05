@@ -51,11 +51,6 @@ export const NavBar = () => {
                         <div className='social-icon'>
                             <a href="http://www.linkedin.com/in/igor-augusto-5353a8191" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Linkedin" /></a>
                         </div>
-                        <a href="http://mailto:igor-augustofc@hotmail.com" target="_blank" rel="noreferrer">
-                            <button className="vvd">
-                                <span>Let's Connect</span>
-                            </button>
-                        </a>
                     </span>
                 </Navbar.Collapse>
             </Container>
