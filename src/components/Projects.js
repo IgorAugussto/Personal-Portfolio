@@ -6,13 +6,15 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Projects = () => {
 
     const projects = [
         {
-            title: "Coming Soon...",
-            description: "",
+            title: "Flat Bella Mare",
+            description: "Flat aconchegante",
             imgUrl: flatLogo,
+            link: "https://flat-maragogi-lp.vercel.app/"
         },
         {
             title: "Coming Soon...",
