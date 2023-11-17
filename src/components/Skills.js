@@ -42,10 +42,13 @@ export const Skills = () => {
                                         <Carousel responsive={responsive} infinite={true}
                                             className="owl-carousel owl-theme skill-slider">
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Java" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="CSharp" />
                                             </div>
                                             <div className="item">
-                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" alt="Spring" />
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                                            </div>
+                                            <div className="item">
+                                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
                                             </div>
                                             <div className="item">
                                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" />
